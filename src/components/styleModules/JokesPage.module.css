@@ -10,6 +10,7 @@
     align-items: flex-start;
     height: 100px;
     padding: 30px;
+    padding-left: 10px;
     margin-bottom: 123px;
     box-sizing: border-box;
 }
@@ -102,9 +103,12 @@
         width: 40%;
     }
     .jokeContainer{
-
         padding-inline: 10%;
         padding-top: 0px;
+        margin-bottom: 90px;
+    }
+    .nav{
+        margin-bottom: 40px;
     }
 
 }
