@@ -1,7 +1,7 @@
 import React from 'react';
 import getData from '../hooks/getData';
 import LoadingScreen from './LoadingScreen';
-import AdviceCSS from './AdvicePage.module.css'
+import AdviceCSS from './styleModules/AdvicePage.module.css'
 import {Link} from 'react-router-dom'
 
 const AdvicePage = () => {

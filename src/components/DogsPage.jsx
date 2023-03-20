@@ -1,7 +1,7 @@
 import React from 'react';
 import getData from '../hooks/getData';
 import LoadingScreen from './LoadingScreen';
-import DogCSS from './DogPage.module.css'
+import DogCSS from './styleModules/DogPage.module.css'
 import {Link} from 'react-router-dom'
 
 

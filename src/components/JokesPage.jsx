@@ -1,7 +1,7 @@
 import React from 'react';
 import getData from '../hooks/getData';
 import LoadingScreen from './LoadingScreen';
-import JokesCSS from './JokesPage.module.css'
+import JokesCSS from './styleModules/JokesPage.module.css'
 import {Link} from 'react-router-dom'
 
 const JokesPage = () => {
