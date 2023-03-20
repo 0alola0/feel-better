@@ -1,0 +1,114 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 123px;
+    box-sizing: border-box;
+}
+.homeBTN{
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    transform: rotate(-40deg);
+    background-color: #b4ff5c;
+    color: black;
+    font-weight: 900;
+    border: 2px solid black;
+    transition: 1s;
+}
+.homeBTN:hover{
+    transform: rotate(-35deg);
+}
+.jokeContainer{
+    text-align: center;
+    width: 100%;
+    background-color: #b4ff5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 30%;
+    padding-top: 0px;
+    box-sizing: border-box; 
+}
+.header{
+    font-size: 36px;
+
+}
+.comedyImage{
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    width: 20%;
+}
+.comedyImage2{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    z-index: -1;
+    width: 20%;
+}
+.randBTN{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 50%;
+    transform: translateY(50%);
+    color: black;
+    transition: 1s;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background: rgb(180,255,92);
+    background: linear-gradient(360deg, rgba(180,255,92,1) 50%, rgb(255, 255, 255) 50%);
+    align-items: center;
+}
+.randBTN:hover{
+    transform: translateY(50%) rotate(180deg);
+}
+@media only screen and (max-width: 900px){
+    .comedyImage{
+        position: absolute;
+        left: 30px;
+        bottom: 0px;
+        width: 20%;
+    }
+    .comedyImage2{
+        position: absolute;
+        right: 100px;
+        top: 50px;
+        z-index: -1;
+        width: 40%;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .comedyImage{
+        position: fixed;
+        left: -20px;
+        top: auto;
+        transform: rotate(90deg);
+        bottom: 0;
+        width: 20%;
+    }
+    .comedyImage2{
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        z-index: -1;
+        width: 40%;
+    }
+    .jokeContainer{
+
+        padding-inline: 10%;
+        padding-top: 0px;
+    }
+
+}
