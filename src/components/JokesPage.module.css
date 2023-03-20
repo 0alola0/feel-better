@@ -43,10 +43,11 @@
 
 }
 .comedyImage{
-    position: absolute;
-    left: 30px;
+    position: fixed;
+    left: -60px;
     bottom: 0px;
     width: 20%;
+    transform: rotate(90deg);
 }
 .comedyImage2{
     position: absolute;
@@ -74,12 +75,7 @@
     transform: translateY(50%) rotate(180deg);
 }
 @media only screen and (max-width: 900px){
-    .comedyImage{
-        position: absolute;
-        left: 30px;
-        bottom: 0px;
-        width: 20%;
-    }
+
     .comedyImage2{
         position: absolute;
         right: 100px;
